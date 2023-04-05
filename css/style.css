@@ -1,0 +1,40 @@
+html{
+    height: 5000px;
+    
+    
+}
+
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.startpadding{
+    padding-top: 70px;
+
+}
+
+.startimg{
+    background-image: url(/img/mountains.jpg);
+    background-size: cover;
+    height: 800px;
+    padding-top: 250px;
+}
+
+.fadein { 
+    animation: fadein 2s; 
+}
+
+@keyframes fadein {
+    0% {
+       opacity: 0;
+       transform: translateX(-500px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+ .navbarcolor{
+    background-color: rgb(219, 216, 216);
+ }
