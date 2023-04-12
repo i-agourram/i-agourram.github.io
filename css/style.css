@@ -42,3 +42,10 @@ html {
 .workcolor {
     background-color: rgb(143, 143, 143);
 }
+
+.nav-link:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+    color: blueviolet;
+}
