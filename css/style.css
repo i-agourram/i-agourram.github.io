@@ -1,5 +1,6 @@
 html {
     height: 5000px;
+
 }
 
 .bar{
@@ -67,5 +68,11 @@ html {
     transform: scale(1.1);
     cursor: pointer;
     transition: 1s;
-    color: blueviolet;
+    
+}
+
+.animation:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
 }
