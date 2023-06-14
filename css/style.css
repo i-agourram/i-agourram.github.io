@@ -76,3 +76,14 @@ html {
     cursor: pointer;
     transition: 1s;
 }
+
+.inspirationimg{
+    background-image: url(/img/inspiration4.jpg);
+    background-size: cover;
+    height: 800px;
+    padding-top: 250px;     
+}
+
+.inspiration{
+    font-size: 80px;
+}
